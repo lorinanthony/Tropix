@@ -13,6 +13,13 @@ brew install gcc
 
 For macOS users, the Xcode Command Line Tools include a GCC compiler. Instructions on how to install Xcode may be found [here](http://railsapps.github.io/xcode-command-line-tools.html). For extra tips on how to run C++ on macOS, please visit [here](http://seananderson.ca/2013/11/18/rcpp-mavericks.html). For tips on how to avoid errors dealing with "-lgfortran" or "-lquadmath", please visit [here](http://thecoatlessprofessor.com/programming/rcpp-rcpparmadillo-and-os-x-mavericks-lgfortran-and-lquadmath-error/).
 
+### Data Sources and Preprocessing
+The respective virus datasets in Monod et al. (2017) were obtained from public sources. We give the details on their sources and preliminary data processing procedures below.
+
+###### **HIV**
+
+###### **Avian Influenza**
+
 ### Relevant Citations
 A. Monod, S. Kališnik Verovšek, J.Á. Patiño-Galindo, and L. Crawford (2017). Tropical sufficient statistics for persistent homology with a parametric application to infectious viral disease. arXiv. 1709.02647.
 
