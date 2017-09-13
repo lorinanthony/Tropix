@@ -16,10 +16,10 @@ For macOS users, the Xcode Command Line Tools include a GCC compiler. Instructio
 ### Data Sources and Preprocessing
 The respective virus datasets in Monod et al. (2017) were obtained from public sources. We give the details on their sources and preliminary data processing procedures below.
 
-###### **HIV**
+#### **HIV**
 HIV polymerase sequences derived from patients included in the MSM HIV transmission cluster (Patin ̃o-Galindo et al., 2017) were retrieved from supplementary material made public on GenBank. Se- quences derived from unrelated patients were obtained from the Los Alamos HIV database in October 2016. Only sequences from the same subtype (HIV subtype B), and spanning the polymerase region were consid- ered. In order to ensure that these sequences were not epidemiologically related, redundant sequences were removed after a clustering analysis with a specified genetic distance threshold of 5%, using CD-HIT (Huang et al., 2010). All sequences were aligned using MAFFTv7 (Katoh and Standley, 2013).
 
-###### **Avian Influenza**
+#### **Avian Influenza**
 Hemagglutinin (HA) and Neuraminidase (NA) genes of avian influenza A were down- loaded in August 2017 from the Influenza Virus Database of the National Center for Biotechnology In- formation (NCBI). The resulting gene datasets were aligned with MAFFTv7 (Katoh and Standley, 2013). Concatenated sequences of both genes (derived from the same sample) were generated with the package ape written in R (Paradis et al., 2004). The multiple sequence alignments was trimmed with TrimAl (Capella- Gutierrez et al., 2009) in order to remove regions of sparse homology (i.e. biologically shared ancestry).
 
 In both viral examples, pairwise distances were obtained using PAUP (Swofford, 2001) and were calculated by using the GTR + GAMMA (4 CAT) model, which is commonly used for studying HIV and Influenza datasets (Tian et al., 2015; Worobey et al., 2016). The GTR model is a time reversible model that considers variable base frequencies, where each pair of nucleotide substitutions occur at different rates (Donnelly and Tavar ́e, 1995). Combined with a gamma distribution, it also accounts for rate variation among sites (Yang, 1995). The use of a substitution model when calculating genetic distances, as carried out according to these procedures, leads to estimates that are more biologically accurate.
