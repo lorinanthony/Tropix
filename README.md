@@ -7,7 +7,7 @@ Tropix is implemented in three different language environments: (1) Matlab, (2) 
 MATLAB is a multi-paradigm numerical computing environment and a proprietary programming language developed by [MathWorks](https://www.mathworks.com/index-c.html). MATLAB allows matrix manipulations, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs written in other languages. For more on licensing options, please visit [here](https://www.mathworks.com/campaigns/products/ppc/google/matlab-toolbox-price-request.html?form_seq=reg).
 
 ### C++ Functions Required for Tropix
-The code in this repository assumes that basic C++ functions and applications are already set up on the running personal computer or cluster. If not, certain versions of Tropix functions may not work properly. A simple option is to use [gcc] (https://gcc.gnu.org/). macOS users may use this collection by installing the [Homebrew package manager](http://brew.sh/index.html) and then typing the following into the terminal:
+The code in this repository assumes that basic C++ functions and applications are already set up on the running personal computer or cluster. If not, certain versions of Tropix functions may not work properly. A simple option is to use [gcc](https://gcc.gnu.org/). macOS users may use this collection by installing the [Homebrew package manager](http://brew.sh/index.html) and then typing the following into the terminal:
 
     brew install gcc
 
