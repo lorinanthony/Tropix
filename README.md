@@ -29,6 +29,6 @@ A. Monod, S. Kališnik Verovšek, J.Á. Patiño-Galindo, and L. Crawford (2017).
 
 ### Questions and Feedback
 For questions or concerns with the Tropix functions, please contact
-[Anthea Monod](mailto:rr2579@cumc.columbia.edu), [Melissa McGuirl](mailto:melissa_mcguirl@brown.edu), or [Lorin Crawford](mailto:lorin_crawford@brown.edu).
+[Anthea Monod](mailto:antheam@tauex.tau.ac.il), [Melissa McGuirl](mailto:melissa_mcguirl@brown.edu), or [Lorin Crawford](mailto:lorin_crawford@brown.edu).
 
 We appreciate any feedback you may have with our repository and instructions.
