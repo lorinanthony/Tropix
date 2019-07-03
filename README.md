@@ -25,7 +25,7 @@ Hemagglutinin (HA) and Neuraminidase (NA) genes of avian influenza A were downlo
 In both viral examples, pairwise distances were obtained using PAUP ([Swofford, 2001](http://onlinelibrary.wiley.com/doi/10.1002/0471650129.dob0522/abstract)) and were calculated by using the GTR + GAMMA (4 CAT) model, which is commonly used for studying HIV and Influenza datasets ([Tian et al., 2015](http://www.pnas.org/content/112/1/172.abstract); [Worobey et al., 2016](https://www.nature.com/nature/journal/v539/n7627/full/nature19827.html)). The GTR model is a time reversible model that considers variable base frequencies, where each pair of nucleotide substitutions occur at different rates ([Donnelly and Tavaré, 1995](http://www.annualreviews.org/doi/abs/10.1146/annurev.ge.29.120195.002153)). Combined with a gamma distribution, it also accounts for rate variation among sites ([Yang, 1995](http://www.genetics.org/content/139/2/993)). The use of a substitution model when calculating genetic distances, as carried out according to these procedures, leads to estimates that are considered more biologically accurate.
 
 ### Relevant Citations
-A. Monod, S. Kališnik Verovšek, J.Á. Patiño-Galindo, and L. Crawford (2017). Tropical sufficient statistics for persistent homology with a parametric application to infectious viral disease. arXiv. 1709.02647.
+A. Monod, S. Kališnik Verovšek, J.Á. Patiño-Galindo, and L. Crawford (2017). Tropical sufficient statistics for persistent homology with a parametric application to infectious viral disease. *SIAM Journal on Applied Algebra and Geometry*. **3**(2): 337-371.
 
 ### Questions and Feedback
 For questions or concerns with the Tropix functions, please contact
